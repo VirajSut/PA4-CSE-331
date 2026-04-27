@@ -47,16 +47,10 @@ class Solution:
                     if y_gap >= d:
                         break 
                     
-                    
                     curr_dist = distance(point_i, point_j)
                     if curr_dist <d:
                         d = curr_dist
                         
                     j += 1 
             return d 
-        
         return closest(sorted(self.points, key = lambda p:(p[0],p[1]))) 
-'''
-closest pair (points)
-'''    
-    
