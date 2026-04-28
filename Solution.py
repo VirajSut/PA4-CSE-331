@@ -42,11 +42,10 @@ class Solution:
                     point_i = strip[i]
                     point_j = strip[j]
                     
-                    y_gap = point_j[1] - point_i[1]
+                    gap = point_j[1] - point_i[1]
                     
-                    if y_gap >= d:
+                    if gap >= d:
                         break 
-                    
                     
                     curr_dist = distance(point_i, point_j)
                     if curr_dist <d:
