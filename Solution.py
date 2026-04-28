@@ -53,9 +53,4 @@ class Solution:
                         
                     j += 1 
             return d 
-        
         return closest(sorted(self.points, key = lambda p:(p[0],p[1]))) 
-'''
-closest pair (points)
-'''    
-    
